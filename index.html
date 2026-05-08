@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ВЕЛЕОЗ — петербургское женское пальто</title>
+  <meta name="description" content="ВЕЛЕОЗ — петербургская экосистема женской верхней одежды: пальто, жакеты, архивные модели, производство и selected resale." />
+  <style>
+    :root{--bg:#f3eee8;--paper:#fffdfa;--text:#1b1a18;--muted:#655e58;--line:#d8cec3;--accent:#2f2b27;--dark:#171614;--shadow:0 18px 60px rgba(19,17,13,.08);--radius:28px;--container:min(1180px, calc(100% - 32px))}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(circle at top left,#fbf7f1 0%,#f3eee8 42%,#eee5db 100%);color:var(--text);font:400 16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;letter-spacing:.01em}
+    a{text-decoration:none;color:inherit}.container{width:var(--container);margin:0 auto}
+    .topbar{position:sticky;top:0;z-index:50;background:rgba(243,238,232,.86);backdrop-filter:blur(18px);border-bottom:1px solid rgba(216,206,195,.75)}
+    .topbar .container{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:14px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:14px}
+    .brand-mark{width:44px;height:44px;border:1.5px solid var(--accent);border-radius:999px;display:grid;place-items:center;font-size:24px;font-family:Georgia,"Times New Roman",serif}
+    .brand-sub{display:block;letter-spacing:.02em;text-transform:none;font-size:12px;color:var(--muted);font-weight:500}
+    nav{display:flex;flex-wrap:wrap;gap:20px;font-size:14px;color:var(--muted)}
+    .cta-top{padding:12px 18px;border:1px solid var(--accent);border-radius:999px;font-size:14px;font-weight:600;background:var(--paper)}
+    .hero{padding:74px 0 34px}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:26px;align-items:stretch}
+    .panel{background:rgba(255,253,250,.72);border:1px solid rgba(216,206,195,.95);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero-copy{padding:42px}
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;background:rgba(255,255,255,.72);border:1px solid var(--line);color:var(--muted);font-size:13px}
+    h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.06;letter-spacing:-.02em;margin:0 0 14px}
+    h1{font-size:clamp(42px,7vw,84px);max-width:10ch;margin-top:22px} h2{font-size:clamp(30px,4vw,52px)} h3{font-size:26px}
+    .lead{font-size:19px;color:#3f3933;max-width:58ch;margin-bottom:14px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 24px}
+    .btn{padding:15px 22px;border-radius:999px;border:1px solid var(--accent);font-weight:600;display:inline-flex;align-items:center;justify-content:center}
+    .btn-primary{background:var(--dark);color:#fff}.btn-secondary{background:transparent}
+    .mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+    .mini{padding:16px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.62)}
+    .mini strong{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:8px}
+    .hero-visual{padding:28px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(180deg,#f8f3ed 0%,#f0e8de 100%)}
+    .logo-card{padding:28px;border-radius:24px;background:rgba(255,255,255,.7);border:1px solid var(--line)}
+    .logo-word{font-family:Georgia,"Times New Roman",serif;font-size:clamp(38px,5vw,64px);letter-spacing:.12em}
+    .logo-sub{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-top:10px}
+    .swatches{display:flex;gap:10px;margin:24px 0}.sw{width:70px;height:70px;border-radius:18px;border:1px solid var(--line)}
+    .quote{padding:20px 22px;border-left:3px solid var(--accent);background:rgba(255,255,255,.62);border-radius:18px;color:#433e39}
+    .bullet-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:18px}
+    .bullet{padding:16px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.6);font-size:14px;color:#514a45}
+    section{padding:34px 0}.section-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:22px}.section-head p{max-width:62ch;color:var(--muted);margin:0}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .card{padding:28px}.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.22em;color:var(--muted);margin-bottom:12px}
+    .list{display:grid;gap:10px;margin-top:14px}.list div{position:relative;padding-left:18px}.list div:before{content:"";position:absolute;left:0;top:10px;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+    .product{padding:0;overflow:hidden}.product-top{padding:28px;min-height:154px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(180deg,#f8f3ed,#efe7dc)}.product-bottom{padding:24px 28px 28px}
+    .dark-band{background:linear-gradient(140deg,#181715,#312c27 60%,#433c36);color:#fff;border-radius:32px;padding:34px;box-shadow:var(--shadow)} .dark-band p{color:rgba(255,255,255,.82)}
+    .link-stack{display:grid;gap:10px}.ghost{padding:14px 18px;border-radius:18px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06)}
+    .process-step{display:grid;grid-template-columns:56px 1fr;gap:16px;align-items:start;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:16px}.process-step:last-child{margin-bottom:0;padding-bottom:0;border-bottom:0}
+    .num{width:56px;height:56px;border-radius:18px;background:var(--dark);color:#fff;display:grid;place-items:center;font-weight:700}
+    .faq{display:grid;gap:14px}.faq .panel{padding:22px}
+    footer{padding:36px 0 48px;color:var(--muted)}.footer-row{display:flex;justify-content:space-between;gap:16px;align-items:end;border-top:1px solid var(--line);padding-top:22px}.footer-brand{font-family:Georgia,"Times New Roman",serif;font-size:28px;letter-spacing:.12em;color:var(--text)}
+    @media (max-width:980px){.hero-grid,.grid-3,.grid-2,.mini-grid,.bullet-grid{grid-template-columns:1fr}nav{display:none}h1{max-width:none}.topbar .container{min-height:72px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <a class="brand" href="#top">
+        <div class="brand-mark">В</div>
+        <div>ВЕЛЕОЗ<span class="brand-sub">пальто · архив · производство</span></div>
+      </a>
+      <nav>
+        <a href="#about">О бренде</a>
+        <a href="#ecosystem">Экосистема</a>
+        <a href="#catalog">Линейки</a>
+        <a href="#process">Процесс</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="cta-top" href="#contacts">Написать</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="panel hero-copy">
+          <div class="eyebrow">Санкт-Петербург · с 1994 года · женская верхняя одежда</div>
+          <h1>ВЕЛЕОЗ</h1>
+          <p class="lead">Петербургское женское пальто, жакеты, архивные модели и производственное направление — в одной цельной fashion-экосистеме.</p>
+          <p>Мы обновили бренд так, чтобы он говорил современно и уверенно: спокойная эстетика, хороший крой, качественная ткань, реальное производство и вещи, которые хочется носить дольше одного сезона.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contacts">Заказать и связаться</a>
+            <a class="btn btn-secondary" href="#ecosystem">Смотреть направления</a>
+          </div>
+          <div class="mini-grid">
+            <div class="mini"><strong>Главная линия</strong><span>Пальто, жакеты и верхняя одежда для современной женщины</span></div>
+            <div class="mini"><strong>Новая ветка</strong><span>ВЕЛЕОЗ Архив — selected resale и архивные модели бренда</span></div>
+            <div class="mini"><strong>B2B</strong><span>Пошив партий, образцов, спецодежды и корпоративной формы</span></div>
+          </div>
+        </div>
+
+        <div class="panel hero-visual">
+          <div class="logo-card">
+            <div class="logo-word">ВЕЛЕОЗ</div>
+            <div class="logo-sub">st. petersburg women's outerwear</div>
+          </div>
+          <div class="swatches">
+            <div class="sw" style="background:#f3eee8"></div>
+            <div class="sw" style="background:#ddd3c8"></div>
+            <div class="sw" style="background:#7d7369"></div>
+            <div class="sw" style="background:#181715"></div>
+          </div>
+          <div class="quote"><strong>Новая стилистика бренда</strong><br>Классический модный Петербург в современной форме: воздух, фактура, интеллигентная женственность, ремесло, история и вещь с характером.</div>
+          <div class="bullet-grid">
+            <div class="bullet">Единая эстетика для сайта, соцсетей и презентаций</div>
+            <div class="bullet">Чистая подача без визуального шума и “ярмарочного” стиля</div>
+            <div class="bullet">Мода, архив и производство в одной понятной системе</div>
+            <div class="bullet">Подходит и для розницы, и для B2B-коммуникации</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>О бренде</h2>
+            <p>ВЕЛЕОЗ — петербургская марка и производственная база женской верхней одежды. Исторически бренд известен пальто, а сегодня развивается как цельное пространство: готовые изделия, архивные дропы, selected resale, контент о моде и направление по пошиву.</p>
+          </div>
+        </div>
+        <div class="grid-3">
+          <div class="panel card"><div class="kicker">Производство</div><h3>Реальная база, а не только витрина</h3><p>С 1994 года бренд работает с верхней женской одеждой в Санкт-Петербурге. В центре — посадка, конструкция, ткань и уважение к изделию.</p></div>
+          <div class="panel card"><div class="kicker">Качество</div><h3>Материалы и спокойная роскошь</h3><p>Мы опираемся на качественные ткани и фурнитуру, на вещи с характером, которые не теряют актуальность после одного сезона.</p></div>
+          <div class="panel card"><div class="kicker">Коммуникация</div><h3>Современная и живая подача</h3><p>Здесь есть не только вещи, но и редакционный взгляд на моду: история, тренды, закулисье производства и архив бренда.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ecosystem">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Экосистема ВЕЛЕОЗ</h2>
+            <p>Один бренд, три понятных направления. Это помогает не распыляться и строить ясную систему: актуальная fashion-линия, архив с быстрыми продажами и производственная ветка для новых заказчиков.</p>
+          </div>
+        </div>
+        <div class="grid-3">
+          <div class="panel card"><div class="kicker">ВЕЛЕОЗ Пальто</div><h3>Главная fashion-линия</h3><div class="list"><div>Женские пальто, жакеты, пиджаки и верхняя группа</div><div>Современная классика и петербургская эстетика</div><div>Редакционная подача и новые коллекции</div></div></div>
+          <div class="panel card"><div class="kicker">ВЕЛЕОЗ Архив</div><h3>Архивные модели и resale</h3><div class="list"><div>Избранные вещи прошлых коллекций и единичные позиции</div><div>Selected resale верхней женской одежды</div><div>Капсульные дропы и вещи с историей</div></div></div>
+          <div class="panel card"><div class="kicker">ВЕЛЕОЗ Производство</div><h3>Пошив и B2B-сотрудничество</h3><div class="list"><div>Пошив образцов и партий женской верхней одежды</div><div>Спецодежда и корпоративная форма</div><div>Работа под задачу клиента и производственное партнерство</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalog">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Продуктовые линейки</h2>
+            <p>На сайте линейки собраны так, чтобы бренд выглядел не как хаотичный каталог, а как ясная, взрослая fashion-система с сильной подачей.</p>
+          </div>
+        </div>
+        <div class="grid-3">
+          <article class="panel product"><div class="product-top"><div class="kicker">01</div><h3>Пальто</h3></div><div class="product-bottom"><p>Основа ДНК бренда: классические модели, акцентные силуэты и архивные дропы.</p><div class="list"><div>Классические пальто</div><div>Акцентные сезонные модели</div><div>Архивные экземпляры</div></div></div></article>
+          <article class="panel product"><div class="product-top"><div class="kicker">02</div><h3>Жакеты и пиджаки</h3></div><div class="product-bottom"><p>Интеллектуальная женственность, чистая линия и вещи, которые собирают образ.</p><div class="list"><div>Базовые жакеты</div><div>Сезонные пиджаки</div><div>Selected resale</div></div></div></article>
+          <article class="panel product"><div class="product-top"><div class="kicker">03</div><h3>Производство и спецодежда</h3></div><div class="product-bottom"><p>Отдельная ветка для прагматичного B2B: понятная задача, аккуратная реализация, живой диалог.</p><div class="list"><div>Образцы и партии</div><div>Форма и спецодежда</div><div>Пошив под ТЗ</div></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container grid-2">
+        <div class="panel card"><div class="kicker">Почему выбирают нас</div><h3>5 сильных причин</h3><div class="list"><div>Петербургская школа верхней одежды</div><div>Опыт бренда с 1994 года</div><div>Качественные ткани и фурнитура</div><div>Честный баланс цены и уровня</div><div>Доставка по России и личная консультация</div></div></div>
+        <div class="panel card" style="display:flex;align-items:center"><div style="font-family:Georgia,'Times New Roman',serif;font-size:clamp(24px,3vw,40px);line-height:1.18;color:#2a2521">«Мы не просто продаем вещи. Мы собираем вокруг верхней одежды культуру вкуса: моду, архив, ремесло и живое производство».</div></div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Как мы работаем</h2>
+            <p>Для клиента важны не только вещи, но и прозрачность. Поэтому на сайте сразу показано: как создается изделие, как работает архив и что получает B2B-заказчик.</p>
+          </div>
+        </div>
+        <div class="grid-2">
+          <div class="panel card">
+            <div class="process-step"><div class="num">1</div><div><strong>Идея, ткань, модель</strong><p>Мы начинаем с силуэта, назначения вещи и материалов — для гардероба, архива или партии под заказ.</p></div></div>
+            <div class="process-step"><div class="num">2</div><div><strong>Проработка и посадка</strong><p>Детали, фурнитура, линия плеча, длина и общий характер вещи собираются в цельный образ.</p></div></div>
+            <div class="process-step"><div class="num">3</div><div><strong>Пошив и контроль</strong><p>Аккуратная сборка на каждом этапе: от кроя до финальной проверки перед продажей или отправкой.</p></div></div>
+            <div class="process-step"><div class="num">4</div><div><strong>Продажа, архив, доставка</strong><p>Подбираем, консультируем, помогаем с отправкой по России и удерживаем единый уровень подачи бренда.</p></div></div>
+          </div>
+          <div class="panel card">
+            <div class="kicker">Для новых заказчиков</div>
+            <h3>Что получает B2B-клиент</h3>
+            <div class="list"><div>Понятную специализацию на верхней группе и сложных изделиях</div><div>Живой контакт и аккуратную презентацию бренда</div><div>Возможность обсудить образцы, партии и производственные задачи</div><div>Отдельное направление по спецодежде и корпоративной форме</div></div>
+            <p style="margin-top:16px;color:var(--muted)">Такая структура помогает бренду не распыляться: розничная линия держит лицо, архив дает движение товара, а производство приносит новые заказы.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="contacts">
+      <div class="dark-band">
+        <div class="grid-2" style="align-items:center">
+          <div>
+            <h2 style="color:#fff">Связаться с ВЕЛЕОЗ</h2>
+            <p>Для покупки, архива, сотрудничества и производственных запросов используйте актуальные площадки бренда. Здесь оставлены только понятные точки входа, чтобы коммуникация была быстрой.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="https://vk.ru/veleoz2" target="_blank" rel="noopener">Открыть VK</a>
+              <a class="btn btn-secondary" href="https://www.instagram.com/veleoz_ru/" target="_blank" rel="noopener" style="color:#fff;border-color:#fff">Открыть Instagram</a>
+            </div>
+          </div>
+          <div class="link-stack">
+            <a class="ghost" href="https://vk.ru/veleoz2" target="_blank" rel="noopener"><strong>VK</strong><br>vk.ru/veleoz2</a>
+            <a class="ghost" href="https://veleozpalto.blogspot.com/p/blog-page_3782.html?m=1" target="_blank" rel="noopener"><strong>Блог бренда</strong><br>veleozpalto.blogspot.com</a>
+            <a class="ghost" href="https://www.instagram.com/veleoz_ru/" target="_blank" rel="noopener"><strong>Instagram</strong><br>@veleoz_ru</a>
+            <div class="ghost"><strong>Email / телефон</strong><br>Добавьте сюда рабочие контакты перед публикацией</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Частые вопросы</h2>
+            <p>Короткий блок, который снимает базовые вопросы прямо на лендинге.</p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="panel"><strong>Что можно купить у ВЕЛЕОЗ?</strong><p>Готовые изделия верхней группы, архивные модели, selected resale и единичные позиции.</p></div>
+          <div class="panel"><strong>Можно ли заказать пошив?</strong><p>Да. Для новых заказчиков предусмотрено отдельное направление — ВЕЛЕОЗ Производство.</p></div>
+          <div class="panel"><strong>Есть ли доставка?</strong><p>Да, бренд работает с доставкой по России. Актуальные условия лучше уточнять в личной коммуникации.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <div><div class="footer-brand">ВЕЛЕОЗ</div><div>Пальто · Архив · Производство · Санкт-Петербург</div></div>
+      <div>© ВЕЛЕОЗ</div>
+    </div>
+  </footer>
+</body>
+</html>
